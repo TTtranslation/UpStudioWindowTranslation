@@ -1,4 +1,4 @@
-﻿{
+﻿var english={
 	"name": {
 		"name": "en"
 	},
