@@ -17,3 +17,5 @@
 	在每次新版本语言更新之前，研发部会发送新的local_en.js文件，请参与翻译的同志，将文件夹内的local_en.js 做替换，再次打开index.html，翻译未翻译内容。并反馈给研发部。
 
 # UpStudioWindowTranslation
+# 更新说明
+### 2017.6.7 范同学提供最新的更新语言
