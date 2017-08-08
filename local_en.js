@@ -1,5 +1,7 @@
 ﻿var english={
 	"name": {
+		"version": "2.0",
+		"date": "2017-08-01",
 		"name": "en"
 	},
 	"_front": {
@@ -346,16 +348,13 @@
 		"connect_print_by_ip": "To connect to the printer, enter it's IP address and the optional printer password",
 		"connect_other_network": "Join other networks",
 		"m1_and_s1": "The difference between m1 and s1 can not exceed +-1",
-
 		"circle_floor_state": "Align to the floor",
 		"version_loading": "Downloading ...",
-		"model_radius": "Radius:",
-		"model_radius_1": "Radius1:",
-		"model_radius_2": "Radius2:",
-		"model_height": "Height:",
-		"model_width": "Width:",
-		"model_length": "Side Length:",
-		"model_long": "Length:",
+		"model_radius": "Radius：",
+		"model_height": "Height：",
+		"model_width": "Width：",
+		"model_length": "Side Length：",
+		"model_long": "Length：",
 		"model_parm_font": "Model Parameter",
 		"network_type": "Type",
 		"network_address": "IP",
@@ -364,12 +363,44 @@
 		"network_test": "Test",
 		"network_nouse_agent": "Do Not Use Proxy",
 		"network_use_http": "HTTPS Proxy",
-		"contour_linewidth": "Contour Line Width",
+		"contour_linewidth": "Extrusion Width",
 		"height_button_font": "Click the specified plane to place the model on the backplane",
 		"loop_input_error": "Input range is -0.15 to + 0.25mm for the default contour line width",
 		"network_testing": "Test ...",
 		"address_and_port":"Address or port can not be empty",
-		"Model_radius_limit": "The radius of the ring 1 must not be less than the radius 2"
+		"Model_radius_limit": "The outer radius must be greater than the inner radius",
+		"forbiddrn_User_Login": "Login forbidden，please contact us",
+		"model_cart": "Categories",
+		"input_model_cart": "Please select model category",
+		"account_setting":"Account Settings",
+		"print_refresh": "Refresh",
+		"message_problem_type": "Type of feedback problem：",
+		"software_problem": "Software Problem",
+		"printer_problem": "Printer Failure",
+		"print_quality": "Print Quality",
+		"limit_input": "Limit Input",
+		"message_font": "Words",
+		"message_email": "Contact：",
+		"printer_sn": "Printer SN：",
+		"message_load_img": "Upload Screenshots：",
+		"please_load_img": "Please upload pictures",
+		"please_input_sn": "Please enter",
+		"message_looking": "Browse",
+		"message_send": "Submit",
+		"problem_and_information": "Questions and Comments：",
+		"model_spcview": "Display Mode",
+		"model_pou": "Cliplane",
+		"edit_parames": "Parameters",
+		"edit_slide": "Slides：",
+		"top_radius": "Top Radius：",
+		"bottom_radius": "Bottom Radius：",
+		"out_radius": "Outer radius：",
+		"in_radius": "Inner radius：",
+		"edit_points": "Points：",
+		"edit_font": "Font：",
+		"edit_text": "Text：",
+		"model_edit_font": "Model Edit",
+		"message_message": "Feedback"
 	},
 	"print": {
 		"PrinterStatus-1": "Printer not Connected",
@@ -528,7 +559,11 @@
 		"License verify failed":"License verify failed",
 		"ERROR: Slicing error":"ERROR: Slicing Error",
 		"Connection Success":"Connection Success",
-		"ERROR: Connection Failed":"Error: Connection Failed"
+		"ERROR: Connection Failed":"Error: Connection Failed",
+		"Unlimited": "Unlimited",
+		"Keep_on_download": "Continue",
+		"ERROR: Feedback ERROR":"Error: Feedback submission failed",
+		"Crashed. Do you upload error messages?":"Crashed. Do you upload error messages?"
 	},
 	"graphic": {
 		"Filepath: ": "File Path: ",
@@ -554,7 +589,7 @@
 		"app is not verified":"App is not verified",
 		"The file is damaged": "The file is damaged",
 		"current models contain protected model! can not do this operation!":"Current models contain protected model! Can not do this operation!",
-		"UnKnown ERROR!Please Contact TierTime!":"UnKnown ERROR!Please Contact TierTime!",
+		"UnKnown ERROR!Please Contact TierTime!":"Unknown error!Please contact us!",
 		"Copy Number: ": "Copy Number",
 		"Copy Model": "Copy Model",
 		"1 model": "1 Copy",
@@ -565,7 +600,9 @@
 		"6 model": "6 Copys",
 		"7 model": "7 Copys",
 		"8 model": "8 Copys",
-		"custom": "Customized"
+		"custom": "Customized",
+		"Voxelization": "Voxelization",
+		"Edit":"Edit"
 	},
 	"image_front": {
 		"_Model_Height": "Model Height",
@@ -598,5 +635,4 @@
 		"_image_relative": "Relative"
 	},
 	"image": {}
-
 }
