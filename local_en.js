@@ -1,7 +1,7 @@
 ﻿var english={
 	"name": {
 		"version": "2.0",
-		"date": "2017-08-01",
+		"date": "2017-08-10",
 		"name": "en"
 	},
 	"_front": {
@@ -400,7 +400,21 @@
 		"edit_font": "Font：",
 		"edit_text": "Text：",
 		"model_edit_font": "Model Edit",
-		"message_message": "Feedback"
+		"message_message": "Feedback",
+		"edit_slide_count": "The number of sides input must be 3-12",
+		"edit_slide_point": "The range of points input must be 5-30",
+		"edit_top_botom": "The bottom and top radii can not be 0",
+		"spc_one": "Wireframe",
+		"spc_two": "Solid",
+		"spc_thr": "Transparent",
+		"spc_for": "Solid and Wireframe",
+		"circle_to_floor": "A key set bottom",
+		"message_send_succ": "Send successful",
+		"message_send_fail": "Send failed",
+		"message_sending": "Send...",
+		"input_correct_email": "Please enter a valid email address",
+		"upload_succ": "Upload successful",
+		"upload_fail": "Upload failed"
 	},
 	"print": {
 		"PrinterStatus-1": "Printer not Connected",
