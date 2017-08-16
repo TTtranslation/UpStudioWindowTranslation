@@ -1,7 +1,7 @@
 ﻿var english={
 	"name": {
 		"version": "2.0",
-		"date": "2017-08-10",
+		"date": "2017-08-16",
 		"name": "en"
 	},
 	"_front": {
@@ -348,7 +348,7 @@
 		"connect_print_by_ip": "To connect to the printer, enter it's IP address and the optional printer password",
 		"connect_other_network": "Join other networks",
 		"m1_and_s1": "The difference between m1 and s1 can not exceed +-1",
-		"circle_floor_state": "Align to the floor",
+		"circle_floor_state": "Roate Face to Bottom",
 		"version_loading": "Downloading ...",
 		"model_radius": "Radius：",
 		"model_height": "Height：",
@@ -364,7 +364,7 @@
 		"network_nouse_agent": "Do Not Use Proxy",
 		"network_use_http": "HTTPS Proxy",
 		"contour_linewidth": "Extrusion Width",
-		"height_button_font": "Click the specified plane to place the model on the backplane",
+		"height_button_font": "Click the model face you want to be the bottom,then press 'Confirm'",
 		"loop_input_error": "Input range is -0.15 to + 0.25mm for the default contour line width",
 		"network_testing": "Test ...",
 		"address_and_port":"Address or port can not be empty",
@@ -408,13 +408,15 @@
 		"spc_two": "Solid",
 		"spc_thr": "Transparent",
 		"spc_for": "Solid and Wireframe",
-		"circle_to_floor": "A key set bottom",
+		"circle_to_floor": "Drop down on the floor",
 		"message_send_succ": "Send successful",
 		"message_send_fail": "Send failed",
 		"message_sending": "Send...",
 		"input_correct_email": "Please enter a valid email address",
 		"upload_succ": "Upload successful",
-		"upload_fail": "Upload failed"
+		"upload_fail": "Upload failed",
+		"model_reserze": "Reverse",
+		"please_input_your_num": "Please enter your contact information"
 	},
 	"print": {
 		"PrinterStatus-1": "Printer not Connected",
