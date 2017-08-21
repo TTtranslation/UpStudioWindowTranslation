@@ -4,7 +4,7 @@
 		"date": "2017-08-21",
 		"name": "en"
 	},
-	"_front": 
+	"_front":{ 
 		"Cancel": "Cancel",
 		"Confirm": "Confirm",
 		"About_Us": "About Us",
