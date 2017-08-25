@@ -1,7 +1,7 @@
 ﻿var english={
 	"name": {
 		"version": "2.0",
-		"date": "2017-08-23",
+		"date": "2017-08-25",
 		"name": "en"
 	},
 	"_front": {
@@ -239,8 +239,6 @@
 		"Manage" : "Manage",
 		"Model_unit": "Unit：",
 		"Auto_height_end": "Nozzle height detection ended",
-		"Flex_plat": "Flex",
-		"Ward_plat": "Perforated",
 		"Model_upload": "Publish",
 		"Unlimited": "Unlimited",
 		"Error_prompt": "Error",
@@ -336,8 +334,6 @@
 		"Axial_test": "M1: Actual Value",
 		"Axial_alert_message": "Theoretical value or actual value can not be 0",
 		"Choose_floor": "Print Board：",
-		"Ward_and_Flex": "Perforated+Flex",
-		"Glass_plat": "4mm Glass Plate",
 		"wifi_high_setting":"Advanced Settings",
 		"Usb_connect_network": "Link",
 		"Back": "Return",
@@ -383,12 +379,12 @@
 		"message_email": "Contact：",
 		"printer_sn": "Printer SN：",
 		"message_load_img": "Upload Screenshots：",
-		"please_load_img": "Please upload pictures",
+		"please_load_img": "Pictures can not exceed 4M",
 		"please_input_sn": "Only Numbers",
 		"message_input_email":"Email",
 		"message_looking": "Browse",
 		"message_send": "Submit",
-		"problem_and_information": "Questions and Comments：",
+		"problem_and_information": "Problem Description：",
 		"model_spcview": "Display Mode",
 		"model_pou": "Cliplane",
 		"edit_parames": "Parameters",
@@ -417,7 +413,7 @@
 		"upload_succ": "Upload successful",
 		"upload_fail": "Upload failed",
 		"model_reserze": "Reverse",
-		"please_input_your_num": "Please enter your contact information",
+		"please_input_your_num": "Contact and problem description can not be empty",
 		"model_radius_star_limit": "The outer radius can not be less than the inner radius"
 	},
 	"print": {
@@ -584,7 +580,8 @@
 		"Crashed. Do you upload error messages?":"Crashed. Do you upload error messages?",
 		"ERROR: Printing,cannot stop heating":"Error: printing, can not stop heating",
 		"Fatal Error":"Fatal Error",
-		"Range":"Range:"
+		"Range":"Range:",
+		"ERROR: File size must be less than 4MB":"Error: Image size can not be greater than 4M"
 	},
 	"graphic": {
 		"Filepath: ": "File Path: ",
