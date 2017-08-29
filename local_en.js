@@ -1,7 +1,7 @@
 ﻿var english={
 	"name": {
 		"version": "2.0",
-		"date": "2017-08-25",
+		"date": "2017-08-29",
 		"name": "en"
 	},
 	"_front": {
@@ -81,7 +81,6 @@
 		"An_email_to_reset_your_password_has_been_sent_to_your_email_address": "An email to reset your password has been sent to your email address",
 		"Failed_to_Reset_Password": "Failed to Reset Password",
 		"Home": "Home",
-		"Import_Model_or_Image": "Import Model or Image",
 		"Print": "Print",
 		"Initialize_Printer": "Initialize Printer",
 		"Calibrate": "Calibrate",
@@ -99,7 +98,7 @@
 		"Fix_Errors": "Fix Errors",
 		"Merge": "Merge",
 		"Delete": "Delete",
-		"Top_View": "Top View",
+		"Top_View": "UP View",
 		"Bottom_View": "Bottom View",
 		"Back_View": "Back View",
 		"Free_View": "Free View",
@@ -110,8 +109,8 @@
 		"Range_is_from": "Range is from",
 		"No_Axis_Chosen": "No Axis Chosen",
 		"Add": "Add",
-		"Add_Picture": "Add Picture",
-		"Add_Mode": "Add Model",
+		"Add_Picture": "Add 2D Picture",
+		"Add_Mode": "Add 3D Model",
 		"Saving": "Saving",
 		"Printer_Setting": "Printer Setting",
 		"Normal": "Normal",
@@ -414,7 +413,8 @@
 		"upload_fail": "Upload failed",
 		"model_reserze": "Reverse",
 		"please_input_your_num": "Contact and problem description can not be empty",
-		"model_radius_star_limit": "The outer radius can not be less than the inner radius"
+		"model_radius_star_limit": "The outer radius can not be less than the inner radius",
+		"circle_lock": "Lock Proportions"
 	},
 	"print": {
 		"PrinterStatus-1": "Printer not Connected",
@@ -576,7 +576,6 @@
 		"ERROR: Connection Failed":"Error: Connection Failed",
 		"Unlimited": "Unlimited",
 		"Keep_on_download": "Continue",
-		"ERROR: Feedback ERROR":"Error: Feedback submission failed",
 		"Crashed. Do you upload error messages?":"Crashed. Do you upload error messages?",
 		"ERROR: Printing,cannot stop heating":"Error: printing, can not stop heating",
 		"Fatal Error":"Fatal Error",
@@ -621,8 +620,7 @@
 		"custom": "Customized",
 		"Voxelization": "Voxelization",
 		"Edit":"Edit",
-		"Voxel Size":"Voxel Size:",
-		"Invalid":"Invalid"
+		"Voxel Size":"Voxel Size:"
 	},
 	"image_front": {
 		"_Model_Height": "Model Height：",
