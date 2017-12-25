@@ -1,7 +1,7 @@
 ﻿var english={
 	"name": {
 		"version": "2.2",
-		"date": "2017-10-24",
+		"date": "2017-12-25",
 		"name": "en"
 	},
 	"_front": {
@@ -441,8 +441,9 @@
 		"branch_length": "Length",
 		"branch_pull": "Stretch",
 		"branch_loading_font": "Generating supports, please wait ...",
-		"branch_title_font": "Support Editor",
-		"branch_deleat_exit": "Reset / Close"
+		"branch_title_font": "Supports Editor",
+		"branch_deleat_exit": "Reset / Close",
+		"easy_show_font": "Linear View"
 	},
 	"print": {
 		"PrinterStatus-1": "Printer not Connected",
