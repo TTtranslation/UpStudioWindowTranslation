@@ -1,7 +1,7 @@
 ﻿var english={
 	"name": {
 		"version": "2.2",
-		"date": "2017-12-25",
+		"date": "2018-1-16",
 		"name": "en"
 	},
 	"_front": {
@@ -443,7 +443,8 @@
 		"branch_loading_font": "Generating supports, please wait ...",
 		"branch_title_font": "Supports Editor",
 		"branch_deleat_exit": "Reset / Close",
-		"easy_show_font": "Linear View"
+		"easy_show_font": "Linear View",
+		"save_branch_message": "Confirm to save your Support Settings."
 	},
 	"print": {
 		"PrinterStatus-1": "Printer not Connected",
@@ -579,8 +580,8 @@
 		"Run File":"Run file",
 		"ERROR: Input Not Valid":"ERROR: Input not valid.",
 		"Select active file":"Select active file",
-		"ERROR: X1 Or X2 Input Error":"ERROR: X1 Or X2 input error.",
-		"ERROR: Z Or H Input Error":"ERROR: Z Or H input error.",
+		"ERROR: X1 Or X2 Input Error":"ERROR: The difference between value X1 and value X2 is too large. ",
+		"ERROR: Z Or H Input Error":"ERROR: Please decrease value Z or increase value H.",
 		"ERROR: Save Error":"ERROR: Save Error.",
 		"ERROR: User Not Login":"ERROR: User not logged in.",
 		"ERROR: Model validation failure":"ERROR: Model validation failure.",
@@ -623,7 +624,8 @@
 		"Ready":"Ready",
 		"Prepare Data":"Prepare Data",
 		"Wating":"Waiting",
-		"RePublish":"RePublish"
+		"RePublish":"RePublish",
+		"ERROR: Gcode printing is not compatible with firmware version 346 or lower":"G-code printing is not compatible with firmware version 346 or lower."
 	},
 	"graphic": {
 		"Filepath: ": "File Path: ",
@@ -698,4 +700,5 @@
 		"_image_relative": "Relative"
 	},
 	"image": {}
+}
 }
