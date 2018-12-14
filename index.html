@@ -134,8 +134,10 @@
                 var temp = i+'.'+key;
                 var input_name = i+key;
                 input_name = input_name.replace('</br>',"");
-                input_name = input_name.replace(':',"");
-                input_name = input_name.replace('\'',"");
+                 input_name = input_name.replace(':',"_");
+                input_name = input_name.replace('\'',"_");
+                input_name = input_name.replace(' ',"_");
+                input_name = input_name.replace('!',"_");
 //                    temp = temp.replace(/\r\n/g,"");
 //                    temp = temp.replace(/\n/g,"")
 
@@ -179,8 +181,10 @@
                     for(key in data[i]) {
                         var input_name = i+key;
                         input_name = input_name.replace('</br>',"");
-                        input_name = input_name.replace(':',"");
-                        input_name = input_name.replace('\'',"");
+                         input_name = input_name.replace(':',"_");
+                         input_name = input_name.replace('\'',"_");
+                        input_name = input_name.replace(' ',"_");
+                         input_name = input_name.replace('!',"_");
                         // var in_putId_front = i+'.'+key;
                         in_putId_front = input_name; // stripscript(in_putId_front);
                         if(document.getElementById(in_putId_front)!=undefined)
