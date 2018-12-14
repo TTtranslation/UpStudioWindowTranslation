@@ -126,40 +126,38 @@
         }
 
 
-    for(var i in init_data){
-        if (i!= "version" && i!= "date" ) {
-            var  chang_html = "";
-            for(key in init_data[i])
-            {
-                var temp = i+'.'+key;
-                var input_name = i+key;
-                input_name = input_name.replace('</br>',"");
-                 input_name = input_name.replace(':',"_");
-                input_name = input_name.replace('\'',"_");
-                input_name = input_name.replace(' ',"_");
-                input_name = input_name.replace('!',"_");
-//                    temp = temp.replace(/\r\n/g,"");
-//                    temp = temp.replace(/\n/g,"")
 
-                var input_front_id = stripscript(temp);
-                chang_html += "<tr>";
-                chang_html += "<td>"
-                        + key
-                        + "</td><td>"
-                        + init_data[i][key]
-                        + "</td><td>"
-                        + "<input oninput='OnInput(event,this)' name='"+input_name+"' id= '"+input_name+"' style='background-color: rgba(210, 38, 19, 0.49) ' />"
-                        + "</td>";
-                chang_html += "</tr>";
+        for(var i in init_data){
+            if (i!= "version" && i!= "date" ) {
+
+
+                var  chang_html = "";
+                for(key in init_data[i])
+                {
+                    var temp = i+'.'+key;
+                    var input_name = i+key;
+                    input_name = input_name.replace('</br>',"");
+                    temp = temp.replace(/\r\n/g,"");
+                    temp = temp.replace(/\n/g,"")
+
+                    var input_front_id = stripscript(temp);
+                    chang_html += "<tr>";
+                    chang_html += "<td>"
+                            + key
+                            + "</td><td>"
+                            + init_data[i][key]
+                            + "</td><td>"
+                            + "<input oninput='OnInput(event,this)' name="+input_name+" id= '"+input_front_id+"' style='background-color: rgba(210, 38, 19, 0.49) ' />"
+                            + "</td>";
+                    chang_html += "</tr>";
+
+                }
+
+                var  id_init = "#"+i;
+                $(id_init).append(chang_html);
 
             }
-
-            var  id_init = "#"+i;
-            $(id_init).append(chang_html);
-
-
         }
-    }
 
    // });
 
@@ -179,14 +177,8 @@
             for(var i in data){
                 if (i!= "version" && i!= "date" ) {
                     for(key in data[i]) {
-                        var input_name = i+key;
-                        input_name = input_name.replace('</br>',"");
-                         input_name = input_name.replace(':',"_");
-                         input_name = input_name.replace('\'',"_");
-                        input_name = input_name.replace(' ',"_");
-                         input_name = input_name.replace('!',"_");
-                        // var in_putId_front = i+'.'+key;
-                        in_putId_front = input_name; // stripscript(in_putId_front);
+                        var in_putId_front = i+'.'+key;
+                        in_putId_front = stripscript(in_putId_front);
                         if(document.getElementById(in_putId_front)!=undefined)
                         {
                             document.getElementById(in_putId_front).value=data[i][key];
@@ -202,6 +194,7 @@
 
         }
     }
+
 
  //
     function stripscript(s) {
