@@ -493,7 +493,8 @@
 		"printer_not_connected": "Printer not Connected",
 
 		"contour_mode_font":"Contour View",
-		"suspend_layer_font":"Paused Layer"
+		"suspend_layer_font":"Paused Layer",
+		"Warm":"Warm："
 	},
 	"print": {
 		"PrinterStatus-1": "Printer not Connected",
